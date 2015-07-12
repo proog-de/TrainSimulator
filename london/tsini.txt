@@ -1,0 +1,120 @@
+####################################
+#
+# train simulator init file
+#
+####################################
+
+
+<version="V 1.00">
+
+
+####################################
+#
+# global settings
+#
+####################################
+
+<globalsetup>
+
+# Display Setup
+  <screenw=640>
+  <screenh=480>
+  <zoommin=500>
+  <zoommax=150_000>
+  <groundcolor=0xCBCBCB>
+  <endlessdrag=2>
+  <mouseacclevel=10>
+  <railway=1>
+
+# Framerate and Performance Setup
+  <fpslimit=15>
+  <fpscheck=0>
+  <bitmaptime=50>
+
+# Cheat (0=speed limit off)
+  <speedlimit=1>
+
+# Cheat (Create Number of Test Tracks)
+  <generictracks=0>
+
+# Visual Effencs and Messages
+  <menufade=0>
+  <cameraslide=10>
+  <showtrainstops=10>
+  <showtraindeliver=0>
+  <showmoney=0>
+
+</globalsetup>
+
+
+# Background images / bitmaps
+
+<placemap>
+  <map="London 50km">
+  <file="london7.bmp">
+  <posx=913_200_000>
+  <posy=933_700_000>
+  <scale=148_000>
+  <zoommin=10>
+  <zoommax=500_000>
+</placemap>
+
+<placemap>
+  <map="London 20km">
+  <file="london6.bmp">
+  <posx=957_400_000>
+  <posy=967_450_000>
+  <scale=74_000>
+  <zoommin=50_000>
+  <zoommax=125_000>
+</placemap>
+
+<placemap>
+  <map="London 10km">
+  <file="london5.bmp">
+  <posx=979_300_000>
+  <posy=984_300_000>
+  <scale=37_000>
+  <zoommin=25_000>
+  <zoommax=50_000>
+</placemap>
+
+<placemap>
+  <map="London 5km">
+  <file="london4.bmp">
+  <posx=990_310_000>
+  <posy=992_690_000>
+  <scale=18_500>
+  <zoommin=15_000>
+  <zoommax=25_000>
+</placemap>
+
+<placemap>
+  <map="London 2km">
+  <file="london3.bmp">
+  <posx=995_860_000>
+  <posy=996_840_000>
+  <scale=9_275>
+  <zoommin=5_000>
+  <zoommax=15_000>
+</placemap>
+
+<placemap>
+  <map="London 1km">
+  <file="london2.bmp">
+  <posx=998_610_000>
+  <posy=998_950_000>
+  <scale=4_640>
+  <zoommin=250>
+  <zoommax=5_000>
+</placemap>
+
+<placemap>
+  <map="London 1km near">
+  <file="london1.bmp">
+  <posx=1_000_000_000>
+  <posy=1_000_000_000>
+  <scale=2_320>
+  <zoommin=10>
+  <zoommax=2_000>
+</placemap>

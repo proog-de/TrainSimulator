@@ -1,0 +1,113 @@
+####################################
+#
+# train simulator data file
+#
+####################################
+
+####################################
+#
+# tracks
+#
+# angle:
+#   0 = east,  128 = south
+# 256 = west,  384 = north
+#
+####################################
+
+<version="V 1.00">
+
+# Track 1: Track1
+<track>
+  <name="Track1">
+  <posx=1_000_023_317>
+  <posy=1_000_176_419>
+  <posz=0>
+  <angle=480>
+  <build>
+    e ff r fff s(stop,stop) r2 f2 f 
+    r6 r f rr r3r3r3r3r3 rrrrrrrr r 
+    f ll fff l3 l2l2l2l2l2 l1l1l1l1l
+    1l1l1l1 f1 r1r1 s(stop,stop) r1r
+    1r1r1r1r1r1r1 r1r1r1r1r1r1r1r1 f
+    f llllllll rrrrvrvrvrvrv rvrvrvr
+    vrvrvrvrv rvrvrvrvrvrv fvfvfvfvf
+    vfvfvfv fvfvfvfv rvrvrvrvrvrrr r
+    rrr f llll ffffffff fff rrrrrrrr
+     s(stop,stop) r r2r2r2r2r2r2r2r2
+     r2r2r2 e c
+  </build>
+</track>
+
+
+####################################
+#
+# Turnouts
+#
+####################################
+
+
+####################################
+#
+# Trains
+#
+####################################
+
+# Train 1
+<train>
+  <name="Train1">
+  <trainpic="Blue Train">
+  <carpic="White Car">
+  <trackname="Track1">
+  <numcars=2>
+  <tracksegment=126>
+  <position=1_869>
+  <speed=50>
+  <control=0x5>
+  <uodometer=491_839>
+  <tripodo=970_201>
+  <odometer=3>
+  <damage=0>
+  <credit=504>
+  <maxspeed=120>
+  <maxcars=10>
+  <state=2>
+  <si1=0>
+  <si2=0>
+  <si3=0>
+</train>
+
+
+
+####################################
+#
+# placed vector graphics objects
+#
+####################################
+
+
+
+####################################
+#
+# global settings
+#
+####################################
+
+<globalsetup>
+  <cam="Train1">
+  <mapactive=0>
+  <landmapactive=-1>
+  <debug=-1>
+  <gridon=0>
+  <scale=469>
+  <offx=-2_132_450>
+  <offy=-2_133_532>
+  <ctrltrain="Train1">
+  <helpman=2>
+  <ohdfps=0>
+  <controller=0>
+  <framestotal=10_161>
+  # FpsLimit=15
+  # Elapsed Time is about 11 Minutes
+  <money=504>
+  # Money=5.040
+</globalsetup>

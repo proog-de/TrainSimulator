@@ -1,0 +1,50 @@
+####################################
+#
+# train simulator init file
+#
+####################################
+
+
+<version="V 1.00">
+
+
+####################################
+#
+# global settings
+#
+####################################
+
+<globalsetup>
+
+# Display Setup
+  <screenw=864>
+  <screenh=480>
+  <zoommin=10>
+  <zoommax=100_000>
+  <groundcolor=0x106010>
+  <endlessdrag=2>
+  <mouseacclevel=10>
+  <railway=1>
+
+# Framerate and Performance Setup
+  <fpslimit=30>
+  <fpscheck=0>
+  <bitmaptime=10>
+
+# Cheat (0=speed limit off)
+  <speedlimit=1>
+
+# Cheat (Create Number of Test Tracks)
+  <generictracks=0>
+
+# Visual Effencs and Messages
+  <menufade=7>
+  <cameraslide=10>
+  <showtrainstops=10>
+  <showtraindeliver=0>
+  <showmoney=0>
+
+</globalsetup>
+
+
+# Background images / bitmaps

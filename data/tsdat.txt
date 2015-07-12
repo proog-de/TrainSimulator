@@ -1,0 +1,800 @@
+####################################
+#
+# train simulator data file
+#
+####################################
+
+####################################
+#
+# tracks
+#
+# angle:
+#   0 = east,  128 = south
+# 256 = west,  384 = north
+#
+####################################
+
+<version="V 1.00">
+
+# Track 1: Westlands
+<track>
+  <name="Westlands">
+  <posx=1_000_252_000>
+  <posy=1_000_093_000>
+  <posz=0>
+  <angle=256>
+  <build>
+    e f llllllll llllllll f llllllll
+     llllllll f s(stop,stop) ff llll
+    llll llllllll f llllllll lllllll
+    l ffffff e c
+  </build>
+</track>
+
+# Track 2: Small Town
+<track>
+  <name="Small Town">
+  <posx=1_000_252_000>
+  <posy=1_000_101_000>
+  <posz=0>
+  <angle=256>
+  <build>
+    e f l3l3l3l3l3l3l3l3 l3l3l3l3l3l
+    3l3l3 l3l3l3l3l3l3l3l3 l3l3l3l3l
+    3l3l3l3 f s(stop,stop) ff l3l3l3
+    l3l3l3l3l3 l3l3l3l3l3l3l3l3 l3l3
+    l3l3l3l3l3l3 l3l3l3l3l3l3l3l3 ff
+    ffff e c
+  </build>
+</track>
+
+# Track 3: Cross Country
+<track>
+  <name="Cross Country">
+  <posx=1_000_569_000>
+  <posy=1_000_289_000>
+  <posz=0>
+  <angle=384>
+  <build>
+    e fff rrrrrrrr rrrrrrrr rrrrrrrr
+     r ff llllllll l ff s(stop,stop)
+     fff rrrrrrrr rrrrrrrr fff rrrrr
+    rrr rrrrrrrr rrrrrrrr rr lllllll
+    l ll fff s(stop,stop) ff f3 rrrr
+    rr r3 rrrrrrrr r e c
+  </build>
+</track>
+
+# Track 4: East End
+<track>
+  <name="East End">
+  <posx=1_001_311_000>
+  <posy=1_000_308_000>
+  <posz=0>
+  <angle=128>
+  <build>
+    e fffff llllllll llllllll llllll
+    ll llllllll ffffffff rrrrrrrr rr
+    rrrrrr f s(stop,stop) ff rrrrrrr
+    r rrrrrrrr ffffffff f rrrrrrrr r
+    rrrrrrr ff rrrrrrrr rrrrrrrr fff
+    fff llllllll lllvlvlvlvlvlv fvfv
+    fvfvff llllllll llllllll e c
+  </build>
+</track>
+
+# Track 5: Big Western
+<track>
+  <name="Big Western">
+  <posx=1_000_107_000>
+  <posy=1_000_527_000>
+  <posz=0>
+  <angle=384>
+  <build>
+    e f rrrrrrrr rrrrrrrr f s(stop,s
+    top) fff rrrrrrrr rrrrrrrr fffff
+    fff ffffffff ff rrrrrrr f2 rrrrr
+    r r3 rr f2 f3 ff s(stop,stop) f 
+    rrrrrrrr rrrrrrrr rrrrrrrr rrrrr
+    rrr r3r3r3 l3l3l3l3l3l3l3l3 l3l3
+    l3l3l3l3l3l3 l3l3l3l3l3l3l3l3 l3
+    l3l3l3l3l3l3l3 l3l3l3l3l3l3 r3r3
+    r3r3r3r3r3r3 r3r3 rrrrrrrr e c
+  </build>
+</track>
+
+# Track 6: South Side
+<track>
+  <name="South Side">
+  <posx=1_000_957_000>
+  <posy=1_000_451_000>
+  <posz=0>
+  <angle=256>
+  <build>
+    e fff s(stop,stop) f f2 llllllll
+     l5 lllll l5 l fff llllllll llll
+    llll llllll ffffff rrrrrr ffffff
+    ff f rrrrrrrr rrrrrrrr rr ffff l
+    lllllll llllllll ll ffffffff fff
+    fffff ff llllllll llllllll fffff
+    ff f3 f l3 llllllll lllllll ffff
+    fff s(stop,stop) ff llllllll lll
+    lllll lllllll f rrrrrrrr rrrrrrr
+    r rr fvfvfvfv rrrrr ffff s(stop,
+    stop) ffff rrrrrrrr rrrrrrrr rrr
+    rrrrr rrrrrrrr fffffff llllllll 
+    llllllvlvlv lvlvlvlvlvlv fv lv f
+    v f2v fvfvfv lvlvlvlvlvlvlvlv lv
+     fvfv e c
+  </build>
+</track>
+
+# Track 7: Coastline
+<track>
+  <name="Coastline">
+  <posx=1_000_200_000>
+  <posy=1_000_050_000>
+  <posz=0>
+  <angle=0>
+  <build>
+    e ffffff(slow,)ff ffffff s(stop,
+    stop) fff(speed:120,)fffff fffff
+    fff ffffffff ffffffff ffffffff f
+    fffffff ff rrrrrrrr rrrrrrrr fff
+    fffff ffffffff ffffffff ffffffff
+     rrrrrrrr rrrrrrrr ffffffff ffff
+    ffff ffff(slow,)ffff ffffffff ff
+    ffffff ffffffff ffffff s(stop,st
+    op) ffffffff ff rrrrrrrr rrrrrrr
+    r f(fast,)ff(,slow)fffff fffffff
+    f fffffff(slow,)f ffffffff rrrrr
+    rrr rrrrrrr e c
+  </build>
+</track>
+
+# Track 8: Stop 1
+<track>
+  <name="Stop 1">
+  <posx=1_000_300_000>
+  <posy=1_000_060_000>
+  <posz=0>
+  <angle=0>
+  <build>
+    e ffffffff ffffffff ffffffff fff
+    fff s(stop,stop) ffffffff fff e
+  </build>
+</track>
+
+# Track 9: Stop 2
+<track>
+  <name="Stop 2">
+  <posx=1_000_400_000>
+  <posy=1_000_070_000>
+  <posz=0>
+  <angle=0>
+  <build>
+    e ffffffff ffffffff ffffffff ff 
+    s(stop,stop) ffffffff fff(crash,
+    ) e
+  </build>
+</track>
+
+
+####################################
+#
+# Turnouts
+#
+####################################
+
+# Turnout 1
+<turnout>
+  <name1="Westlands">
+  <tracksegment1=77>
+  <name2="Small Town">
+  <tracksegment2=75>
+  <turnstate=1>
+</turnout>
+
+# Turnout 2
+<turnout>
+  <name1="Westlands">
+  <tracksegment1=56>
+  <name2="Cross Country">
+  <tracksegment2=4>
+  <turnstate=1>
+</turnout>
+
+# Turnout 3
+<turnout>
+  <name1="Westlands">
+  <tracksegment1=39>
+  <name2="Big Western">
+  <tracksegment2=22>
+  <turnstate=1>
+</turnout>
+
+# Turnout 4
+<turnout>
+  <name1="Cross Country">
+  <tracksegment1=64>
+  <name2="East End">
+  <tracksegment2=5>
+  <turnstate=1>
+</turnout>
+
+# Turnout 5
+<turnout>
+  <name1="East End">
+  <tracksegment1=109>
+  <name2="South Side">
+  <tracksegment2=170>
+  <turnstate=1>
+</turnout>
+
+# Turnout 6
+<turnout>
+  <name1="South Side">
+  <tracksegment1=3>
+  <name2="Cross Country">
+  <tracksegment2=103>
+  <turnstate=1>
+</turnout>
+
+# Turnout 7
+<turnout>
+  <name1="Big Western">
+  <tracksegment1=44>
+  <name2="South Side">
+  <tracksegment2=25>
+  <turnstate=1>
+</turnout>
+
+# Turnout 8
+<turnout>
+  <name1="Big Western">
+  <tracksegment1=77>
+  <name2="Coastline">
+  <tracksegment2=187>
+  <turnstate=1>
+</turnout>
+
+# Turnout 9
+<turnout>
+  <name1="Stop 1">
+  <tracksegment1=2>
+  <name2="Coastline">
+  <tracksegment2=6>
+  <turnstate=1>
+</turnout>
+
+# Turnout 10
+<turnout>
+  <name1="Stop 2">
+  <tracksegment1=2>
+  <name2="Stop 1">
+  <tracksegment2=6>
+  <turnstate=1>
+</turnout>
+
+
+####################################
+#
+# Trains
+#
+####################################
+
+# Train 1
+<train>
+  <name="Train1">
+  <trainpic="Red Train">
+  <carpic="Brown Car">
+  <trackname="Westlands">
+  <numcars=1>
+  <tracksegment=75>
+  <position=15_934>
+  <speed=50>
+  <control=0x5>
+  <uodometer=640_934>
+  <tripodo=550_501>
+  <odometer=3>
+  <damage=0>
+  <credit=309>
+  <maxspeed=120>
+  <maxcars=10>
+  <state=2>
+  <si1=0>
+  <si2=0>
+  <si3=0>
+</train>
+
+# Train 2
+<train>
+  <name="Train2">
+  <trainpic="Blue Train">
+  <carpic="White Car">
+  <trackname="Small Town">
+  <numcars=2>
+  <tracksegment=36>
+  <position=115_503>
+  <speed=0>
+  <control=0x5>
+  <uodometer=605_503>
+  <tripodo=0>
+  <odometer=3>
+  <damage=0>
+  <credit=721>
+  <maxspeed=120>
+  <maxcars=10>
+  <state=3>
+  <si1=189>
+  <si2=0>
+  <si3=0>
+</train>
+
+# Train 3
+<train>
+  <name="Train3">
+  <trainpic="Orange Train">
+  <carpic="Blue Car">
+  <trackname="Cross Country">
+  <numcars=3>
+  <tracksegment=104>
+  <position=19_129>
+  <speed=50>
+  <control=0x5>
+  <uodometer=606_846>
+  <tripodo=878_701>
+  <odometer=3>
+  <damage=0>
+  <credit=819>
+  <maxspeed=120>
+  <maxcars=10>
+  <state=2>
+  <si1=0>
+  <si2=0>
+  <si3=0>
+</train>
+
+# Train 4
+<train>
+  <name="Train4">
+  <trainpic="Green Train">
+  <carpic="Grey Car">
+  <trackname="East End">
+  <numcars=4>
+  <tracksegment=106>
+  <position=3_664>
+  <speed=50>
+  <control=0x5>
+  <uodometer=428_666>
+  <tripodo=662_701>
+  <odometer=4>
+  <damage=0>
+  <credit=1_506>
+  <maxspeed=120>
+  <maxcars=10>
+  <state=2>
+  <si1=0>
+  <si2=0>
+  <si3=0>
+</train>
+
+# Train 5
+<train>
+  <name="Train5">
+  <trainpic="Red Train">
+  <carpic="Brown Car">
+  <trackname="Big Western">
+  <numcars=5>
+  <tracksegment=69>
+  <position=3_012>
+  <speed=50>
+  <control=0x5>
+  <uodometer=815_273>
+  <tripodo=877_501>
+  <odometer=3>
+  <damage=0>
+  <credit=1_469>
+  <maxspeed=120>
+  <maxcars=10>
+  <state=2>
+  <si1=0>
+  <si2=0>
+  <si3=0>
+</train>
+
+# Train 6
+<train>
+  <name="Train6">
+  <trainpic="Blue Train">
+  <carpic="White Car">
+  <trackname="South Side">
+  <numcars=6>
+  <tracksegment=235>
+  <position=16_574>
+  <speed=19>
+  <control=0x5>
+  <uodometer=154_074>
+  <tripodo=26_106>
+  <odometer=4>
+  <damage=0>
+  <credit=2_476>
+  <maxspeed=120>
+  <maxcars=10>
+  <state=2>
+  <si1=0>
+  <si2=0>
+  <si3=0>
+</train>
+
+# Train 7
+<train>
+  <name="Train7">
+  <trainpic="Orange Train">
+  <carpic="Blue Car">
+  <trackname="Coastline">
+  <numcars=7>
+  <tracksegment=16>
+  <position=115_563>
+  <speed=0>
+  <control=0x5>
+  <uodometer=315_563>
+  <tripodo=0>
+  <odometer=6>
+  <damage=0>
+  <credit=4_421>
+  <maxspeed=120>
+  <maxcars=10>
+  <state=3>
+  <si1=183>
+  <si2=0>
+  <si3=0>
+</train>
+
+
+
+####################################
+#
+# placed vector graphics objects
+#
+####################################
+
+# Item 1
+<placeitem>
+  <name="House">
+  <pax=1_001_207_000>
+  <pay=1_000_500_000>
+  <paz=0>
+  <pbx=1_001_228_000>
+  <pby=1_000_480_000>
+  <pbz=0>
+  <color=12_582_912>
+  <scaletype=0>
+</placeitem>
+
+# Item 2
+<placeitem>
+  <name="House">
+  <pax=1_000_246_000>
+  <pay=1_000_183_000>
+  <paz=0>
+  <pbx=1_000_266_000>
+  <pby=1_000_203_000>
+  <pbz=0>
+  <color=12_582_912>
+  <scaletype=0>
+</placeitem>
+
+# Item 3
+<placeitem>
+  <name="House">
+  <pax=1_000_396_000>
+  <pay=1_000_187_000>
+  <paz=0>
+  <pbx=1_000_416_000>
+  <pby=1_000_207_000>
+  <pbz=0>
+  <color=12_582_912>
+  <scaletype=0>
+</placeitem>
+
+# Item 4
+<placeitem>
+  <name="Rail Station">
+  <pax=1_000_253_000>
+  <pay=1_000_338_000>
+  <paz=0>
+  <pbx=1_000_395_000>
+  <pby=1_000_339_000>
+  <pbz=0>
+  <color=12_582_912>
+  <scaletype=0>
+</placeitem>
+
+# Item 5
+<placeitem>
+  <name="Rail Station">
+  <pax=1_000_978_000>
+  <pay=1_000_191_000>
+  <paz=0>
+  <pbx=1_001_108_000>
+  <pby=1_000_191_000>
+  <pbz=0>
+  <color=12_582_912>
+  <scaletype=0>
+</placeitem>
+
+# Item 6
+<placeitem>
+  <name="Rail Station">
+  <pax=1_001_723_000>
+  <pay=1_000_131_000>
+  <paz=0>
+  <pbx=1_001_847_000>
+  <pby=1_000_131_000>
+  <pbz=0>
+  <color=12_582_912>
+  <scaletype=0>
+</placeitem>
+
+# Item 7
+<placeitem>
+  <name="Rail Station">
+  <pax=1_001_583_000>
+  <pay=1_000_555_000>
+  <paz=0>
+  <pbx=1_001_712_000>
+  <pby=1_000_555_000>
+  <pbz=0>
+  <color=12_582_912>
+  <scaletype=0>
+</placeitem>
+
+# Item 8
+<placeitem>
+  <name="Rail Station">
+  <pax=1_001_040_000>
+  <pay=1_001_034_000>
+  <paz=0>
+  <pbx=1_001_170_000>
+  <pby=1_001_034_000>
+  <pbz=0>
+  <color=12_582_912>
+  <scaletype=0>
+</placeitem>
+
+# Item 9
+<placeitem>
+  <name="Rail Station">
+  <pax=1_000_551_000>
+  <pay=1_000_020_000>
+  <paz=0>
+  <pbx=1_000_659_000>
+  <pby=1_000_020_000>
+  <pbz=0>
+  <color=12_582_912>
+  <scaletype=0>
+</placeitem>
+
+# Item 10
+<placeitem>
+  <name="Rail Station">
+  <pax=1_000_233_000>
+  <pay=1_001_061_000>
+  <paz=0>
+  <pbx=1_000_364_000>
+  <pby=1_001_061_000>
+  <pbz=0>
+  <color=12_582_912>
+  <scaletype=0>
+</placeitem>
+
+# Item 11
+<placeitem>
+  <name="Rail Station">
+  <pax=1_000_435_000>
+  <pay=1_001_138_000>
+  <paz=0>
+  <pbx=1_000_567_000>
+  <pby=1_001_138_000>
+  <pbz=0>
+  <color=12_582_912>
+  <scaletype=0>
+</placeitem>
+
+# Item 12
+<placeitem>
+  <name="Rail Station">
+  <pax=1_000_759_000>
+  <pay=1_000_483_000>
+  <paz=0>
+  <pbx=1_000_883_000>
+  <pby=1_000_483_000>
+  <pbz=0>
+  <color=12_582_912>
+  <scaletype=0>
+</placeitem>
+
+# Item 13
+<placeitem>
+  <name="Tunnel">
+  <pax=1_001_246_000>
+  <pay=1_000_726_000>
+  <paz=0>
+  <pbx=1_001_252_000>
+  <pby=1_000_704_000>
+  <pbz=0>
+  <color=0>
+  <scaletype=0>
+</placeitem>
+
+# Item 14
+<placeitem>
+  <name="Tunnel">
+  <pax=1_000_967_000>
+  <pay=1_000_453_000>
+  <paz=0>
+  <pbx=1_000_987_000>
+  <pby=1_000_455_000>
+  <pbz=0>
+  <color=0>
+  <scaletype=0>
+</placeitem>
+
+# Item 15
+<placeitem>
+  <name="Tunnel">
+  <pax=1_001_316_000>
+  <pay=1_001_064_000>
+  <paz=0>
+  <pbx=1_001_336_000>
+  <pby=1_001_055_000>
+  <pbz=0>
+  <color=0>
+  <scaletype=0>
+</placeitem>
+
+# Item 16
+<placeitem>
+  <name="Tunnel">
+  <pax=1_001_420_000>
+  <pay=1_001_009_000>
+  <paz=0>
+  <pbx=1_001_402_000>
+  <pby=1_001_019_000>
+  <pbz=0>
+  <color=0>
+  <scaletype=0>
+</placeitem>
+
+# Item 17
+<placeitem>
+  <name="Tunnel">
+  <pax=1_001_469_000>
+  <pay=1_000_176_000>
+  <paz=0>
+  <pbx=1_001_504_000>
+  <pby=1_000_176_000>
+  <pbz=0>
+  <color=0>
+  <scaletype=0>
+</placeitem>
+
+# Item 18
+<placeitem>
+  <name="Tunnel">
+  <pax=1_001_655_000>
+  <pay=1_000_196_000>
+  <paz=0>
+  <pbx=1_001_624_000>
+  <pby=1_000_182_000>
+  <pbz=0>
+  <color=0>
+  <scaletype=0>
+</placeitem>
+
+# Item 19
+<placeitem>
+  <name="Forest">
+  <pax=1_000_700_000>
+  <pay=1_000_150_000>
+  <paz=0>
+  <pbx=1_000_700_000>
+  <pby=1_000_350_000>
+  <pbz=0>
+  <color=0>
+  <scaletype=0>
+</placeitem>
+
+# Item 20
+<placeitem>
+  <name="Forest">
+  <pax=1_001_447_000>
+  <pay=1_000_316_000>
+  <paz=0>
+  <pbx=1_001_447_000>
+  <pby=1_000_467_000>
+  <pbz=0>
+  <color=0>
+  <scaletype=0>
+</placeitem>
+
+# Item 21
+<placeitem>
+  <name="Forest">
+  <pax=1_000_530_000>
+  <pay=1_000_824_000>
+  <paz=0>
+  <pbx=1_000_365_000>
+  <pby=1_000_996_000>
+  <pbz=0>
+  <color=0>
+  <scaletype=0>
+</placeitem>
+
+# Item 22
+<placeitem>
+  <name="Forest">
+  <pax=1_000_376_000>
+  <pay=1_000_475_000>
+  <paz=0>
+  <pbx=1_000_507_000>
+  <pby=1_000_678_000>
+  <pbz=0>
+  <color=0>
+  <scaletype=0>
+</placeitem>
+
+# Item 23
+<placeitem>
+  <name="Forest">
+  <pax=1_001_880_000>
+  <pay=1_000_281_000>
+  <paz=0>
+  <pbx=1_001_880_000>
+  <pby=1_000_481_000>
+  <pbz=0>
+  <color=0>
+  <scaletype=0>
+</placeitem>
+
+# Item 24
+<placeitem>
+  <name="Forest">
+  <pax=1_001_551_000>
+  <pay=1_000_834_000>
+  <paz=0>
+  <pbx=1_001_937_000>
+  <pby=1_000_824_000>
+  <pbz=0>
+  <color=0>
+  <scaletype=0>
+</placeitem>
+
+
+
+####################################
+#
+# global settings
+#
+####################################
+
+<globalsetup>
+  <cam="Train7">
+  <mapactive=-1>
+  <landmapactive=0>
+  <debug=0>
+  <gridon=0>
+  <scale=249>
+  <offx=-4_018_498>
+  <offy=-4_016_026>
+  <ctrltrain="Train7">
+  <helpman=0>
+  <ohdfps=0>
+  <controller=0>
+  <framestotal=9_220>
+  # FpsLimit=30
+  # Elapsed Time is about 5 Minutes
+  <money=11_721>
+  # Money=117.210
+</globalsetup>
